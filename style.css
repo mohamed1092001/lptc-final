@@ -244,6 +244,7 @@ body {
     flex-wrap: wrap;
     width: 78%;
     gap: 20px;
+    justify-content: center;
 }
 
 .menu .menu-container button {
