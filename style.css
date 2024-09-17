@@ -287,6 +287,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .menu .menu-container button img {
@@ -350,5 +351,21 @@ body {
 
 .mobadra .branch-img{
     width: 93%;
+    margin-right: auto;
+}
+
+/* dalil */
+
+.dalil {
+    background: #780A47;
+}
+
+.dalil .back-btn {
+    background: #E1912E;
+}
+
+.dalil .branch-img {
+    width: 93%;
+    display: block;
     margin-right: auto;
 }
