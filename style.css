@@ -131,7 +131,7 @@ body {
     width: 100%;
 }
 
-.mid-title{
+.mid-title {
     color: #012938;
 }
 
@@ -161,6 +161,14 @@ body {
     align-items: center;
     justify-content: center;
     font-weight: bold;
+}
+
+.goals-container .goal-box:nth-child(1) p {
+    width: 90%;
+}
+
+.goals-container .goal-box p {
+    width: 100%;
 }
 
 /* differents */
@@ -344,12 +352,12 @@ body {
 }
 
 
-.mobadra .goals-container .goal-box .num{
+.mobadra .goals-container .goal-box .num {
     background-color: #85B8B1;
     color: #012938;
 }
 
-.mobadra .branch-img{
+.mobadra .branch-img {
     width: 93%;
     margin-right: auto;
 }
@@ -368,4 +376,24 @@ body {
     width: 93%;
     display: block;
     margin-right: auto;
+}
+
+/* korsy */
+
+.korsy {
+    background: #85B8B1;
+}
+
+.korsy .back-btn {
+    background: #012938;
+}
+
+.korsy .goals-container .goal-box .num {
+    background-color: #85B8B1;
+    color: #012938;
+}
+
+.korsy .branch-img{
+    width: 45%;
+    margin-left: auto;
 }

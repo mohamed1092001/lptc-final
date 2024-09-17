@@ -30,7 +30,8 @@ $(document).ready(function () {
         var fontSizeBannerParag = minDimension * 0.032; 
         var fontSizeMoltakaParag = minDimension * 0.035 ; 
         var fontSizeGoalBoxNum = minDimension * 0.02 ; 
-        var fontSizeGoalBoxText = minDimension * 0.021 ; 
+        var fontSizeGoalBoxText = minDimension * 0.024 ; 
+        var fontSizeKorsyParag = minDimension * 0.029; 
 
         $(".hero .main-page .banner-box .main-title").css("font-size", fontSizeMainTitle + 'px')
         $(".mid-title").css("font-size", fontSizeMidTitle + 'px')
@@ -41,6 +42,7 @@ $(document).ready(function () {
         $(".branch .qr-box p").css("font-size", fontSizeBannerParag + 'px')
         $(".moltaka p").css("font-size", fontSizeMoltakaParag + 'px')
         $(".goal-box .num").css("font-size", fontSizeGoalBoxNum + 'px')
+        $(".korsy p").css("font-size", fontSizeKorsyParag + 'px')
         $(".goal-box p").css("font-size", fontSizeGoalBoxText + 'px')
     }
 
