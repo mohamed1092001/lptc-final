@@ -397,3 +397,26 @@ body {
     width: 45%;
     margin-left: auto;
 }
+/* marsad */
+
+.marsad {
+    background: #012938;
+}
+
+.marsad .back-btn {
+    background: #85B8B1;
+}
+
+.marsad .mid-title{
+    color: #85B8B1;
+}
+
+.marsad .goals-container .goal-box .num {
+    background: #012938;
+    color: #85B8B1;
+}
+
+.marsad .branch-img{
+    width:93%;
+    margin-right: auto;
+}
