@@ -53,6 +53,7 @@ $(document).ready(function () {
         $(".trainning1 p").css("font-size", fontSizeTrainning1Parag + 'px')
         $(".trainning1-en p").css("font-size", fontSizeTrainning1Parag + 'px')
         $(".goal-box p").css("font-size", fontSizeGoalBoxText + 'px')
+        $(".trainning1-en .goal-box p").css("font-size", (fontSizeGoalBoxText * 4 / 5) + 'px')
         $(".goals-con-en .goal-box p").css("font-size", (fontSizeGoalBoxText * 4 / 5) + 'px')
     }
 
