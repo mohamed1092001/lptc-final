@@ -120,15 +120,47 @@ body {
 }
 
 
-.branch p{
+.branch p {
     text-align: justify;
 }
 
-.branch p span{
+.branch p span {
     font-size: inherit;
     text-align: center;
     display: block;
     width: 100%;
+}
+
+.mid-title{
+    color: #012938;
+}
+
+.goals-container {
+    width: 85%;
+}
+
+.goals-container .goals-row {
+    width: 100%;
+    display: flex;
+}
+
+.goals-container .goal-box {
+    width: 50%;
+    border-top: solid 2px #fff;
+}
+
+.goals-container .goal-box .num {
+    border: solid 2px #fff;
+    width: 10%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%) translateX(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 
 /* differents */
@@ -283,19 +315,40 @@ body {
 
 /* moltaka */
 
-.moltaka{
+.moltaka {
     background-color: #012938;
 }
 
-.moltaka .back-btn{
-    background-color: #85B8B1;;
+.moltaka .back-btn {
+    background-color: #85B8B1;
 }
 
-.moltaka .hash{
+.moltaka .hash {
     color: #85B8B1;
 }
 
-.moltaka .branch-img{
+.moltaka .branch-img {
     margin-left: auto;
     width: 56%;
+}
+
+/* mobadra */
+
+.mobadra {
+    background-color: #85B8B1;
+}
+
+.mobadra .back-btn {
+    background-color: #012938;
+}
+
+
+.mobadra .goals-container .goal-box .num{
+    background-color: #85B8B1;
+    color: #012938;
+}
+
+.mobadra .branch-img{
+    width: 93%;
+    margin-right: auto;
 }
