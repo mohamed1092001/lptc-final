@@ -85,9 +85,16 @@ $(document).ready(function () {
         $(".main-page").slideDown(800);
     })
 
-    $(".branch .back-btn").click(function () {
+    $(".en-mode .back-btn").click(function () {
         $(".section").slideUp(800);
-        $(".menu").slideDown(800);
+        $(".menu-en").slideDown(800);
+        $(".branch video").trigger("pause")
+        $(".branch video").prop('currentTime', 0);
+    })
+
+    $(".ar-mode .back-btn").click(function () {
+        $(".section").slideUp(800);
+        $(".menu-ar").slideDown(800);
         $(".branch video").trigger("pause")
         $(".branch video").prop('currentTime', 0);
     })
