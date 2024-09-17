@@ -420,3 +420,32 @@ body {
     width:93%;
     margin-right: auto;
 }
+
+/* trainning1 */
+
+.trainning1 {
+    background: #780A47;
+}
+
+.trainning1 .mid-title{
+    color: #E1912E;
+}
+
+.trainning1 .back-btn {
+    background: #E1912E;
+}
+
+
+.trainning1 .goals-container .goal-box .num {
+    background: #780A47;
+    color: #E1912E;
+}
+
+.trainning1 .branch-img {
+    width: 93%;
+    margin-right: auto;
+}
+
+.trainning1 .goals-container .grow-num{
+    width: 6.5% ;
+}

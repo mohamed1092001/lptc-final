@@ -32,6 +32,7 @@ $(document).ready(function () {
         var fontSizeGoalBoxNum = minDimension * 0.02 ; 
         var fontSizeKorsyParag = minDimension * 0.029; 
         var fontSizeMarsadParag = minDimension * 0.031; 
+        var fontSizeTrainning1Parag = minDimension * 0.025; 
         var fontSizeGoalBoxText = minDimension * 0.024 ; 
 
         $(".hero .main-page .banner-box .main-title").css("font-size", fontSizeMainTitle + 'px')
@@ -45,6 +46,7 @@ $(document).ready(function () {
         $(".goal-box .num").css("font-size", fontSizeGoalBoxNum + 'px')
         $(".korsy p").css("font-size", fontSizeKorsyParag + 'px')
         $(".marsad p").css("font-size", fontSizeMarsadParag + 'px')
+        $(".trainning1 p").css("font-size", fontSizeTrainning1Parag + 'px')
         $(".goal-box p").css("font-size", fontSizeGoalBoxText + 'px')
     }
 
