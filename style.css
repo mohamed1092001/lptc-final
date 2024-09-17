@@ -673,11 +673,20 @@ body {
     transform: translateY(-50%) translateX(-340%) !important;
 }
 
+.quality-en .num{
+    transform: translateY(-50%) translateX(-340%) !important;
+}
+
 .center-grow .num{
     transform: translateY(-50%) translateX(-701%) !important;
 }
 
 .trainning1-en .goal-box p{
+    text-align: center !important;
+    width: 90% !important;
+    margin: auto !important;
+}
+.quality-en .goal-box p{
     text-align: center !important;
     width: 90% !important;
     margin: auto !important;

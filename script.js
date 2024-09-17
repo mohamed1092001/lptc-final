@@ -52,6 +52,7 @@ $(document).ready(function () {
         $(".marsad-en p").css("font-size", (fontSizeMarsadParag * 3.5 / 5) + 'px')
         $(".trainning1 p").css("font-size", fontSizeTrainning1Parag + 'px')
         $(".trainning1-en p").css("font-size", fontSizeTrainning1Parag + 'px')
+        $(".quality-en p").css("font-size", (fontSizeTrainning1Parag * 4.7 / 5) + 'px')
         $(".goal-box p").css("font-size", fontSizeGoalBoxText + 'px')
         $(".trainning1-en .goal-box p").css("font-size", (fontSizeGoalBoxText * 4 / 5) + 'px')
         $(".goals-con-en .goal-box p").css("font-size", (fontSizeGoalBoxText * 4 / 5) + 'px')
