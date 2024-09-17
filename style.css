@@ -446,8 +446,8 @@ body {
     margin-right: auto;
 }
 
-.trainning1 .goals-container .grow-num{
-    width: 6.5% ;
+.goals-container .grow-num{
+    width: 6.5% !important;
 }
 /* quality */
 
@@ -488,3 +488,47 @@ body {
     display: block;
     margin-left: auto;
 }
+/* trainning2 */
+
+.trainning2 {
+    background-color: #012938;
+}
+
+.trainning2 .back-btn {
+    background-color: #85B8B1;
+}
+
+.trainning2 .branch-img {
+    width: 93%;
+    display: block;
+    margin-right: auto;
+}
+
+.trainning2 .mid-title {
+    color: #85B8B1;
+}
+
+.trainning2 .goals-container .goal-box .num {
+    background: #012938;
+    color: #85B8B1;
+}
+
+/* quality */
+
+.quality2 {
+    background: #780A47;
+}
+
+.quality2 .branch-img{
+    width: 93%;
+    margin-right: auto;
+}
+
+.quality2 .mid-title {
+    color: #E1912E;
+}
+
+.quality2 .back-btn {
+    background: #E1912E;
+}
+
