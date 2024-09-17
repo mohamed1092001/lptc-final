@@ -449,3 +449,26 @@ body {
 .trainning1 .goals-container .grow-num{
     width: 6.5% ;
 }
+/* quality */
+
+.quality {
+    background: #780A47;
+}
+
+.quality .mid-title{
+    color: #E1912E;
+}
+
+.quality .back-btn {
+    background: #E1912E;
+}
+
+
+.quality .goals-container .goal-box .num {
+    background: #780A47;
+    color: #E1912E;
+}
+
+.quality .goals-container .grow-num{
+    width: 6.5% ;
+}
