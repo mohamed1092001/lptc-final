@@ -123,7 +123,6 @@ body {
     width: fit-content !important;
 }
 
-
 .branch p {
     text-align: justify;
 }
@@ -286,13 +285,13 @@ body {
 .menu .menu-container {
     display: flex;
     flex-wrap: wrap;
-    width: 78%;
-    gap: 20px;
+    width: 45%;
+    gap: 14px;
     justify-content: center;
 }
 
 .menu .menu-container button {
-    width: calc((100% - 40px) / 3);
+    width: calc((100% - 14px) / 2);
     aspect-ratio: 1/1;
     border-radius: 50%;
     border: solid 2px #fff;
