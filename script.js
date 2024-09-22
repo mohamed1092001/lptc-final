@@ -22,6 +22,8 @@ $(document).ready(function () {
 
 
         $(".dimensions").css({ "width": fittedWidth + 'px', "height": fittedHeight + 'px' })
+        $(".num").css({ "width": (fittedWidth * (46.63 / 1080)) + 'px ', "padding": "0px" })
+
 
         // حساب حجم الخط بناءً على أصغر بُعد
         var minDimension = Math.min(fittedWidth, fittedHeight);
@@ -56,6 +58,11 @@ $(document).ready(function () {
         $(".goal-box p").css("font-size", fontSizeGoalBoxText + 'px')
         $(".trainning1-en .goal-box p").css("font-size", (fontSizeGoalBoxText * 4 / 5) + 'px')
         $(".goals-con-en .goal-box p").css("font-size", (fontSizeGoalBoxText * 4 / 5) + 'px')
+        $(".hero .main-page .banner-box .btn-container button").css("font-size", (fontSizeGoalBoxText * 1.8) + 'px')
+        $(".marsad p").css("font-size", (fontSizeGoalBoxText * 1.3) + 'px')
+        $(".goals-container .goal-box p").css("font-size", (fontSizeGoalBoxText * .9) + 'px')
+        $(".ershaad p").css("font-size", (fontSizeGoalBoxText * 1.2) + 'px')
+        $(".trainning1-en p").css("font-size", (fontSizeGoalBoxText * .7) + 'px')
     }
 
     // أول مرة لما الصفحة تتحمل

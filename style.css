@@ -58,7 +58,6 @@ body {
 .hero .section .content-container {
     width: 100%;
     height: 100%;
-    padding-top: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -74,6 +73,7 @@ body {
     border-radius: 50%;
     width: 8%;
     font-size: 2vh;
+    cursor: pointer;
 }
 
 .back-btn i {
@@ -97,15 +97,16 @@ body {
 
 .branch p {
     color: #fff;
-    width: 85%;
+    width: 84.72222222222222%;
+    line-height: 115%;
 }
 
 .branch video {
-    width: 85%;
+    width: 84.72222222222222%;
 }
 
 .branch .qr-box {
-    width: 85%;
+    width: 84.72222222222222%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -125,21 +126,17 @@ body {
 
 .branch p {
     text-align: justify;
+    text-align-last:center ;
 }
 
-.branch p span {
-    font-size: inherit;
-    text-align: center;
-    display: block;
-    width: 100%;
-}
+
 
 .mid-title {
     color: #012938;
 }
 
 .goals-container {
-    width: 85%;
+    width: 84.72222222222222%;
 }
 
 .goals-container .goals-row {
@@ -172,6 +169,11 @@ body {
 
 .goals-container .goal-box p {
     width: 100%;
+}
+.ar-mode .goals-container .goal-box p {
+    width: 100%;
+    text-align: right;
+    text-align-last:right ;
 }
 
 /* differents */
@@ -664,29 +666,113 @@ body {
     margin-right: auto;
 }
 
-.goals-con-en  .num{
-    transform: translateX(-620%) translateY( -50%) !important;
+.goals-con-en .num {
+    transform: translateX(-620%) translateY(-50%) !important;
 }
 
-.trainning1-en .num{
+.trainning1-en .num {
     transform: translateY(-50%) translateX(-340%) !important;
 }
 
-.quality-en .num{
+.quality-en .num {
     transform: translateY(-50%) translateX(-340%) !important;
 }
 
-.center-grow .num{
+.center-grow .num {
     transform: translateY(-50%) translateX(-701%) !important;
 }
 
-.trainning1-en .goal-box p{
+.trainning1-en .goal-box p {
+    text-align: center !important;
+    text-align-last: center !important;
+    width: 90% !important;
+    margin: auto !important;
+}
+
+.quality-en .goal-box p {
     text-align: center !important;
     width: 90% !important;
     margin: auto !important;
 }
-.quality-en .goal-box p{
-    text-align: center !important;
-    width: 90% !important;
-    margin: auto !important;
+
+/* edit */
+
+.hero .main-page .banner-box .btn-container button {
+    aspect-ratio: 247 / 90;
+    width: calc((257 / 1080) * 100%);
+    padding: 0%;
+}
+
+.branch .qr-box {
+    border-top: solid 1px #fff;
+    padding-top: 3%;
+}
+
+.branch .qr-box img {
+    width: calc(.1039387308533917 * 100%);
+}
+
+.back-btn {
+    top: auto;
+    bottom: 1%;
+    left: 7.5%;
+    width: calc((81/1080)* 100%);
+}
+
+.mobadra .logo-box {
+    width: calc((272 / (1080 - (1080 * 15%))));
+    aspect-ratio: 272 / 218;
+}
+
+.goals-container .goal-box .num {
+    width: 11%;
+}
+
+.branch video {
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+
+}
+
+.mid-title{
+    margin: 2% 0px;
+}
+
+.goals-container .goal-box .num{
+    line-height: 77%;
+}
+
+.ar-mode .qr-box p{
+    text-align: right !important;
+    text-align-last:right  !important;
+}
+
+.en-mode .qr-box p{
+    text-align: left !important;
+    text-align-last:left !important ;
+}
+
+.ar-mode .goal-box p{
+    text-align: right ;
+    text-align-last:right  ;
+}
+
+.en-mode .goal-box p{
+    text-align: left ;
+    text-align-last:left  ;
+    direction: ltr;
+}
+
+.trainning1-en .goals-container .goal-box {
+    position: relative;
+    padding-top: 5%;
+}
+
+.trainning1-en .goals-container .goal-box .num{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%) !important;
+
 }
