@@ -776,3 +776,9 @@ body {
     transform: translate(-50%,-50%) !important;
 
 }
+
+/* ######## */
+
+.menu-ar img{
+    transform: scale(.8);
+}
